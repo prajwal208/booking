@@ -506,26 +506,7 @@ textarea{
     
 }
 
-h5{
-  font-size: 13px;
-    padding-top:30px;
-}
 
-h6,.h222{
-    font-size: 13px;
-    padding-top: 4px;
-    }
-
-    .font1{
-       margin-left:20px;
-       column-gap: 15px;
-       cursor: pointer;
-        }
-
-        .container7{
-            width: 380px;
-            height: 250px;
-        }
 
 nav,ul,li{
     top: 0;
@@ -573,6 +554,28 @@ nav ul li a{
     display: block;
     color: white;
 }
+    
+     .container7{
+            width: 380px;
+            height: 280px;
+        }
+        
+        h5{
+            font-size: 15px;
+            padding-top:20px;
+            margin: 5px;
+        }
+        
+        h6,.h222{
+            font-size: 15px;
+            margin: 5px;
+            }
+        
+            .font1{
+                margin-left:10px;
+                column-gap: 10px;
+                }
+
      
 
 
