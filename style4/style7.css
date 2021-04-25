@@ -1,0 +1,134 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(30.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 550;
+    color: darkblue;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: darkblue;
+}
+
+p{
+    font-family: cursive;
+    width: 700px;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 350px;
+}
+
+
+.container7{
+    background-color:black;
+    height: 430px;
+}
+
+h5{
+    color: white;
+    font-size: 20px;
+    font-family:sans-serif;
+    padding-top:50px;
+}
+
+h6,.h222{
+    color: white;
+    font-size: 20px;
+    font-family:sans-serif;
+    padding-top: 7px;
+    margin-left: 0;
+    }
+
+    .font1{
+        color: white;
+        margin-left: 600px;
+        display: flex;
+        column-gap: 30px;
+        cursor: pointer;
+        
+    }
+
+
+    @media screen and (max-width:600px){
+
+
+
+        .container{
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 500px;
+            background-position: left;
+        }
+        
+        h1{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        
+        h2{
+            font-size: 20px;
+            font-weight: 550;
+            
+        }
+        
+        h3{
+            font-size: 15px;
+            font-weight: 400;
+            
+        }
+        
+        p{
+            font-family: cursive;
+            width: 370px;
+            padding: 20px;
+            font-size:10px;
+            margin-left:-22px;
+            align-items:left;
+            line-height: 20px;
+        
+        }
+
+        .container7{
+            width: 380px;
+            height: 280px;
+        }
+        
+        h5{
+            font-size: 15px;
+            padding-top:20px;
+            margin: 5px;
+        }
+        
+        h6,.h222{
+            font-size: 15px;
+            margin: 5px;
+            }
+        
+            .font1{
+                margin-left:10px;
+                column-gap: 10px;
+                }
+
+        
+        
+      
+    }

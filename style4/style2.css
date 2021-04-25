@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    height: 600px;
+    background-image: url(15.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction:column;
+    opacity: 0.9;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+
+}
+
+.colorr{
+    color: white;
+}
+
+h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+}
+
+h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+
+.flex1{
+   display: flex;
+    height: 430px;
+    
+}
+
+.flex2{
+    display: flex;
+     height: 430px;
+     background-color: darkblue;
+     margin-bottom: 20px;
+     margin-top: 20px;
+ }
+
+ .h2331{
+     color: white;
+     font-size: 35px;
+ }
+
+ .h2332{
+     color: white;
+ }
+
+.h22{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 600;
+    color: darkblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.h233{
+    color: darkblue;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+li{
+    font-size: 22px;
+    list-style: none;
+    padding:5px;
+    width: 800px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:steelblue;
+    margin-left: 70px;
+}
+
+b{
+    color: darkblue;
+}
+
+.container7{
+    background-color:black;
+    height: 300px;
+}
+
+h5{
+    color: white;
+    font-size: 20px;
+    font-family:sans-serif;
+    padding-top:70px;
+}
+
+h6,.h222{
+    color: white;
+    font-size: 20px;
+    font-family:sans-serif;
+    padding-top: 7px;
+    margin-left: 0;
+    }
+
+    .font1{
+        color: white;
+        margin-left: 600px;
+        display: flex;
+        column-gap: 30px;
+        cursor: pointer;
+        
+    }
+
+
+
+    @media screen and (max-width:600px){
+     
+        .container{
+            height: 450px;
+            width: 380px;
+            background-position:left;
+            background-size: cover;
+        }
+        
+        h1{
+            font-weight: 650;
+            font-size: 45px;
+            margin-left:10px
+        }
+        
+        .overlay{
+            height: 450px;
+            width: 380px;
+            position: absolute;
+        }
+
+        h2{
+            font-size: 35px;
+           font-weight: 450;
+        }
+
+        .container1{
+            width: 380px;
+        }
+
+
+        .flex1{
+            display:inline-block;
+             height:300px;
+             padding-top: 30px;
+         }
+         
+         .flex2{
+             display:inline-block;
+              height: 550px;
+              background-color: darkblue;
+              margin-bottom: 40px;
+              margin-top:40px;
+              padding-top: 20px;
+          }
+         
+          .h2331{
+              color: white;
+              font-size: 15px;
+          }
+         
+          .h2332{
+              color: white;
+          }
+         
+         .h22{
+            
+             font-size: 30px;
+            padding: 10px;
+         }
+
+         img{
+             width: 300px;
+             height: 250px;
+             margin-left: 20px;
+         }
+
+         .h233{
+           font-size: 18px;
+            font-weight: 400;
+            padding: 5px;
+        }
+        
+        li{
+            font-size:14px;
+            padding:5px;
+            width:370px;
+           margin-left:0;
+        }
+
+
+
+        .container7{
+            width: 380px;
+            height: 280px;
+        }
+        
+        h5{
+            font-size: 15px;
+            padding-top:20px;
+            margin: 5px;
+        }
+        
+        h6,.h222{
+            font-size: 15px;
+            margin: 5px;
+            }
+        
+            .font1{
+                margin-left:10px;
+                column-gap: 10px;
+                }
+
+
+    }
+
