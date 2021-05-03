@@ -555,27 +555,28 @@ nav ul li a{
     color: white;
 }
     
-     .container7{
-            width: 380px;
-            height: 280px;
-        }
-        
-        h5{
-            font-size: 15px;
-            padding-top:20px;
-            margin: 5px;
-        }
-        
-        h6,.h222{
-            font-size: 15px;
-            margin: 5px;
-            }
-        
-            .font1{
-                margin-left:10px;
-                column-gap: 10px;
-                }
+   .container7{
+    width: 380px;
+    height: 280px;
+}
 
+h5{
+    font-size: 15px;
+    padding-top:20px;
+    margin: 5px;
+}
+
+h6,.h222{
+    font-size: 15px;
+    margin: 5px;
+    }
+
+    .font1,.colorr{
+        margin-left: 20px;
+        column-gap: 20px;
+    }
+
+    
      
 
 
