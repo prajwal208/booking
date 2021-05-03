@@ -385,8 +385,11 @@ h2{
     width:350px;
 }
 
-.font{
+.font,.move{
     font-size: 10px;
+    column-gap:10px;
+    margin-left:10px;
+    margin-right: 25px;
    }
 
    .head{
